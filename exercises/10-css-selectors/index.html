@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        .divOne {
+            text-align: right;
+        }
+        .divOne p:nth-child(1) {
+            font-style: italic;
+        }
+        .divOne p:nth-child(2) {
+            background: blue;
+            color: rgba(255, 255, 255, .99);
+        }
+        .divOne span {
+            font-size: 24px;
+        }
+        .divTwo {
+            text-align: justify;
+        }
+        .divTwo p:nth-child(1) {
+            background: #58A1C1;
+        }
+        .divTwo p:nth-child(2) {
+            text-transform: uppercase;
+        }
+        .divTwo p:nth-child(3) {
+            text-transform: capitalize;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Home Page</h1>
+    </header>
+    <div class="divOne">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, facilis adipisci, error nam sequi nesciunt autem dolorem eligendi modi maxime beatae ut unde? Explicabo, nesciunt iure suscipit dolor aspernatur culpa!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus accusantium optio enim sint? Debitis vero totam neque id earum doloremque, reiciendis eos doloribus inventore velit fuga eveniet ullam, quia quisquam!</p>
+        <p><span>Lorem</span> ipsum, dolor sit amet consectetur adipisicing elit. Neque perferendis eos quod veniam et aliquam quis, harum eveniet commodi, voluptates explicabo dolorem ipsa fugit, blanditiis cupiditate sapiente necessitatibus nemo eum./p>
+    </div>
+    <div class="divTwo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur odit omnis? Modi omnis culpa libero quidem quas neque obcaecati?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos excepturi velit quae enim necessitatibus animi doloremque illo possimus officia perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus quidem nesciunt hic sed, tempora architecto voluptatem. Id inventore sed sequi.</p>
+    </div>
+</body>
+</html>

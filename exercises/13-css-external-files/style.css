@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+}
+nav a {
+    color: red;
+}
+p {
+    font-size: 18px;
+}
+.active {
+    color: #00ACED;
+}

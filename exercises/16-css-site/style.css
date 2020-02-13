@@ -1,0 +1,13 @@
+header {
+    text-align: center;
+}
+header img {
+    border-radius: 50%;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+form input {
+    margin: 1rem 0;
+}

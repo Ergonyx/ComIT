@@ -1,52 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create User</title>
-</head>
-<body>
-    <h1>Create User</h1>
-    <hr/>
-    <form action="create-user.html" method="GET">
-        <div>
-            <label for="email">E-Mail: </label>
-            <input type="text" name="email" placeholder="Email" required>
-        </div>
-        <div>
-            <label for="username">Username: </label>
-            <input type="text" name="username" placeholder="Username" size="30" maxlength="12">
-        </div>
-        <div>
-            <label for="password">Passwod: </label>
-            <input type="text" name="password" placeholder="Password" size="30" maxlength="8" required>
-        </div>
-        <div>
-            <label for="bio">Bio:</label><br/>
-            <textarea name="bio">Provide a brief description of yourself.</textarea>
-        </div>
-        <fieldset>
-            <legend>Interests</legend>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Create User</title>
+    </head>
+    <body>
+        <h1>Create User</h1>
+        <hr />
+        <form action="create-user.html" method="GET">
             <div>
-                <label for="superhero">Select your favorite superhero:</label>
-                <input type="radio" name="superhero" value="Superman">Superman
-                <input type="radio" name="superhero" value="Batman">Batman
-                <input type="radio" name="superhero" value="Wonder Woman" checked>Wonder Woman
-                <input type="radio" name="superhero" value="Flash">Flash
-                <input type="radio" name="superhero" value="Thor">Thor
-                <input type="radio" name="superhero" value="Hulk">Hulk
+                <label for="email">E-Mail: </label>
+                <input type="text" name="email" placeholder="Email" required />
             </div>
             <div>
-                <label for="videogames">Select your favorite video game: </label>
-                <input type="checkbox" name="videogames" value="Fifa" checked>Fifa
-                <input type="checkbox" name="videogames" value="NHL">NHL
-                <input type="checkbox" name="videogames" value="Resident Evil">Resident Evil
-                <input type="checkbox" name="videogames" value="Uncharted" checked>Uncharted
-                <input type="checkbox" name="videogames" value="Chrono Trigger">Chrono Trigger
+                <label for="username">Username: </label>
+                <input
+                    type="text"
+                    name="username"
+                    placeholder="Username"
+                    size="30"
+                    maxlength="12"
+                />
             </div>
-        </fieldset>
-        <input type="hidden" name="userid" value="2300">
-        <input type="submit" value="Create User">
-    </form>
-</body>
+            <div>
+                <label for="password">Passwod: </label>
+                <input
+                    type="text"
+                    name="password"
+                    placeholder="Password"
+                    size="30"
+                    maxlength="8"
+                    required
+                />
+            </div>
+            <div>
+                <label for="bio">Bio:</label><br />
+                <textarea name="bio">
+Provide a brief description of yourself.</textarea
+                >
+            </div>
+            <fieldset>
+                <legend>Interests</legend>
+                <div>
+                    <label for="superhero"
+                        >Select your favorite superhero:</label
+                    >
+                    <input
+                        type="radio"
+                        name="superhero"
+                        value="Superman"
+                    />Superman
+                    <input type="radio" name="superhero" value="Batman" />Batman
+                    <input
+                        type="radio"
+                        name="superhero"
+                        value="Wonder Woman"
+                        checked
+                    />Wonder Woman
+                    <input type="radio" name="superhero" value="Flash" />Flash
+                    <input type="radio" name="superhero" value="Thor" />Thor
+                    <input type="radio" name="superhero" value="Hulk" />Hulk
+                </div>
+                <div>
+                    <label for="videogames"
+                        >Select your favorite video game:
+                    </label>
+                    <input
+                        type="checkbox"
+                        name="videogames"
+                        value="Fifa"
+                        checked
+                    />Fifa
+                    <input type="checkbox" name="videogames" value="NHL" />NHL
+                    <input
+                        type="checkbox"
+                        name="videogames"
+                        value="Resident Evil"
+                    />Resident Evil
+                    <input
+                        type="checkbox"
+                        name="videogames"
+                        value="Uncharted"
+                        checked
+                    />Uncharted
+                    <input
+                        type="checkbox"
+                        name="videogames"
+                        value="Chrono Trigger"
+                    />Chrono Trigger
+                </div>
+            </fieldset>
+
+            <input type="hidden" name="userid" value="2300" />
+            <input type="submit" value="Create User" />
+        </form>
+    </body>
 </html>
